@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹페이지 만드는 법 배우기</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>웹페이지 만드는 법 배우기</h1>
+</header>
+
+<nav>
+    <a href="#html">HTML 기본</a>
+    <a href="#css">CSS 스타일링</a>
+    <a href="#js">JavaScript 소개</a>
+</nav>
+
+<div class="container">
+    <section id="html">
+        <h2>HTML 기본</h2>
+        <p>HTML(하이퍼텍스트 마크업 언어)은 웹페이지의 구조를 정의합니다. 태그를 사용하여 제목, 단락, 링크 등을 정의할 수 있습니다.</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;페이지 제목&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;이것은 제목입니다&lt;/h1&gt;
+    &lt;p&gt;이것은 단락입니다.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </section>
+
+    <section id="css">
+        <h2>CSS 스타일링</h2>
+        <p>CSS(캐스케이딩 스타일 시트)는 웹페이지를 꾸미는 데 사용됩니다. 색상, 글꼴, 레이아웃 등을 변경할 수 있습니다.</p>
+        <pre><code>body {
+    background-color: lightblue;
+}
+h1 {
+    color: navy;
+    font-family: Arial, sans-serif;
+}</code></pre>
+    </section>
+
+    <section id="js">
+        <h2>JavaScript 소개</h2>
+        <p>JavaScript는 웹페이지에 상호작용을 추가합니다. 예를 들어, 버튼 클릭에 반응하거나 애니메이션을 만들 수 있습니다.</p>
+        <pre><code>&lt;script&gt;
+    function showAlert() {
+        alert('안녕하세요, 세계!');
+    }
+&lt;/script&gt;
+&lt;button onclick="showAlert()"&gt;클릭하세요&lt;/button&gt;</code></pre>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2626ㅈㄱㅎ</p>
+</footer>
+
+</body>
+</html>
